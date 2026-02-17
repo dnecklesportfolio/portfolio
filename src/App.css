@@ -1,0 +1,164 @@
+:root {
+  --text-color: #1a1a1a;
+  --bg-color: #ffffff;
+  --accent-color: #333333;
+  --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* Specific Section Styles */
+
+/* Header */
+header {
+  margin-bottom: 100px;
+}
+
+.header-name {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.header-role {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.header-meta {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Case Study */
+.case-study {
+  margin-bottom: 100px;
+}
+
+.case-study-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.case-study-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .case-study-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.case-study-text p {
+  font-size: 0.95rem;
+}
+
+.case-study-media {
+  background: #f5f5f5;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.case-study-media img,
+.case-study-media video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.case-study:hover .case-study-media {
+  transform: scale(1.02);
+}
+
+/* Background */
+.background-text {
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+/* Technical */
+.technical-list {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* Contact */
+footer {
+  margin-top: 120px;
+  padding-top: 60px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer p {
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
