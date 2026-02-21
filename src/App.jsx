@@ -5,7 +5,6 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Bio from './components/Bio';
 import Work from './components/Work';
-import Background from './components/Background';
 import Technical from './components/Technical';
 import Contact from './components/Contact';
 import './App.css';
@@ -42,7 +41,6 @@ function App() {
       <main>
         <Bio />
         <Work />
-        <Background />
         <Technical />
       </main>
       <Contact />

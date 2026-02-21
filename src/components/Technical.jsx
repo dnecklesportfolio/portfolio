@@ -5,7 +5,7 @@ const Technical = () => {
         <section id="technical" className="color-block">
             <h2>Skills</h2>
             <div className="technical-list">
-                Video Editing, Motion Graphics, Graphic Design, Visual Investigation, HTML5, CSS, JavaScript, React, GSAP.js, Premiere Pro, Figma, Generative AI, System Architecture, Agentic IDE Workflows.
+                Figma · Premiere Pro · HTML5 · CSS · JavaScript · React · ACRIS / NYC Property Records Research · Visual Investigation · Video Editing · Motion Graphics · Generative AI Workflows
             </div>
         </section>
     );
