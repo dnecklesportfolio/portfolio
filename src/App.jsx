@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
 import Bio from './components/Bio';
 import Work from './components/Work';
 import Background from './components/Background';
@@ -36,7 +37,8 @@ function App() {
 
   return (
     <div className="app-container">
-      <Header />
+      <Navigation />
+      <Hero />
       <main>
         <Bio />
         <Work />

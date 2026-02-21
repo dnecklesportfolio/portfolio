@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bio = () => {
     return (
-        <section id="bio">
+        <section id="bio" className="color-block">
             <h2>Bio</h2>
             <p>
                 Most of the information that shapes people's lives — housing law, zoning codes, court procedures — is written to be unreadable. That's not an accident. My work makes it legible.
