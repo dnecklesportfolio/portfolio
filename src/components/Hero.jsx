@@ -12,7 +12,7 @@ const Hero = () => {
         <section className="hero">
             <div className="hero-content">
                 <h1 className="hero-title">
-                    Translating institutional abuse into public evidence.
+                    Translating complex human situations into clear visual stories.
                 </h1>
                 <div className="hero-meta">
                     <div className="hero-role">Multimedia Journalist & Designer</div>

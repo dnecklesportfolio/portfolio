@@ -39,8 +39,8 @@ function App() {
       <Navigation />
       <Hero />
       <main>
-        <Bio />
         <Work />
+        <Bio />
         <Technical />
       </main>
       <Contact />

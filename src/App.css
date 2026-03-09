@@ -270,7 +270,7 @@ a:hover {
 }
 
 @media (min-width: 900px) {
-  .case-study-content {
+  .case-study-content.layout-side-by-side {
     grid-template-columns: 1fr 1fr;
   }
 }

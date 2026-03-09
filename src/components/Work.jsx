@@ -8,6 +8,27 @@ const Work = () => {
             <h2>Work</h2>
 
             <CaseStudy
+                title="Displaced: We Shall Not Be Moved (Event Recap)"
+                type="Video Recap — Social Distribution"
+                problem="Deed theft and housing displacement in Brooklyn are often buried in dry, mechanical legal filings. This makes it difficult for the public to grasp the systemic scale of the crisis or feel the human weight of 3,500 stolen homes."
+                solution='I produced a social-first video recap of the "Displaced" exhibit to translate that bureaucratic data into a visceral community narrative. The edit prioritizes raw testimony and archival evidence, using a "Bureaucratic Noir" aesthetic to match the gravity of the subject matter.'
+                execution={<><strong>Format:</strong> 9:16 Vertical for social distribution.<br /><strong>Post-Production:</strong> Focused on narrative pacing and high-contrast visuals to overcome low-light event conditions and maintain a consistent, urgent tone.<br /><strong>Tools:</strong> Adobe Premiere Pro.</>}
+                layout="side-by-side"
+                mediaContent={
+                    <div style={{ padding: '177.78% 0 0 0', position: 'relative', width: '100%', maxWidth: '360px', margin: '0 auto', borderRadius: '4px', overflow: 'hidden', background: '#1a1a1a' }}>
+                        <iframe
+                            src="https://player.vimeo.com/video/1171820739?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            frameBorder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                            title="DISPLACED: Exhibit: The Human Cost of Deed Theft in Brooklyn"
+                        />
+                    </div>
+                }
+            />
+
+            <CaseStudy
                 title="Stop Deed Theft vs. 79th Precinct: The Charrington Case"
                 type={<>Visual Investigation — Instagram Carousel / <a href="https://www.instagram.com/stopdeedtheft/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>@stopdeedtheft</a></>}
                 problem="A homeowner's case was being buried through institutional denial — police refusing to file reports, officials ignoring Supreme Court orders. The abuse was invisible because it was hidden behind badges and procedural language."
@@ -30,6 +51,7 @@ const Work = () => {
                 problem="A Bed-Stuy homeowner's property was taken through mortgage fraud. The family contacted every level of enforcement — the DA, the Attorney General, the Governor's office, NYPD's 81st Precinct — and got nothing. Meanwhile, the property was being destroyed from the inside."
                 solution="A two-minute vertical video builds the case visually — opening with photos of the home before the damage, then cutting to November 2025 footage of the gutted interior, exposed electrical systems, and unauthorized occupants. The officials who were contacted — DA, AG, Governor, presiding judge — are composited as a persistent layer over the footage, so the viewer watches the destruction unfold with the faces of the people who allowed it locked on screen. The inaction and the consequences are never separated."
                 result="3,888 views, 2,612 reach, 307 interactions, 23+ hours of watch time. Created a public evidence trail for the homeowner's advocates and an intake channel for other mortgage fraud victims."
+                layout="side-by-side"
                 mediaContent={
                     <video controls playsInline style={{ width: 'auto', maxWidth: '360px', maxHeight: '80vh', display: 'block', margin: '0 auto', borderRadius: '4px', background: '#1a1a1a' }}>
                         <source src="/assets/florence-case.mp4" type="video/mp4" />
